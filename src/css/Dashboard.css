@@ -1,0 +1,19 @@
+.contenedorPrincipal{
+    position: fixed;
+    justify-content: center;
+    align-content: center;
+    top: 7rem;
+}
+
+.cont{
+    border-radius: 10px;
+    padding: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    height: 500px;
+}
+
+.carusel{
+    clip-path: polygon(0 15%, 100% 0, 100% 85%, 0 100%);
+}

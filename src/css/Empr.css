@@ -1,0 +1,50 @@
+.cont-empresas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contenedor-empresas{
+    text-align: center;
+    width: 80%;
+    position: fixed;
+    top: 10rem;
+    background-color: #f5f5f5;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    padding: 15px;
+}
+
+#titulo-empresa{
+    margin-bottom: 30px;
+}
+
+.expandir, #añadir{
+    cursor: pointer;
+}
+
+#añadir{
+    width: fit-content;
+    align-items: center;
+    gap: 2px;
+    background-color: rgb(49,175,50);
+    margin-bottom: 15px;
+}
+
+#añadir:hover{
+    background-color: rgb(49,175,50,0.7);
+    color: black;
+}
+
+#editar{
+    font-size: 12px;
+}
+
+.tabla-empresas{
+    text-align: center;
+    border: 2px solid;
+}
+
+.paginacion{
+    display: flex;
+    justify-content: center;
+}

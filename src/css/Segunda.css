@@ -1,0 +1,60 @@
+.contenedorS{
+    height: 100vh;
+}
+
+.contenedorS, .opcion, .imagen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    gap: 15px;
+}
+
+.opcion{
+    flex-direction: column;
+    gap: 25px;
+    width: 350px;
+}
+
+.imagen{
+    border: 10px double black;
+    cursor: pointer;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+.icon {
+    width: 150px;
+    height: 150px;
+}
+
+#empresas {
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.2) 10%, rgba(41, 128, 185, 0.5) 100%);
+}
+
+#departamentos{
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.2) 10%, rgba(88, 214, 141, 0.5) 100%);
+}
+
+#empleados {
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.2) 10%, rgba(249, 231, 159, 0.5) 100%);
+}
+
+.opcion:hover{
+    transform: scale(1.05);
+}
+
+#empresas:hover{
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.2) 10%, rgba(41, 128, 185) 100%);
+}
+
+#departamentos:hover{
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.2) 10%, rgba(88, 214, 141) 100%);
+}
+#empleados:hover{
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.2) 10%, rgba(249, 231, 159) 100%);
+}
+
+
