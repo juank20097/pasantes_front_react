@@ -8,3 +8,4 @@ export const fetchDataFromApi = async () => {
         throw error;
     }
 }
+
